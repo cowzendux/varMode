@@ -9,7 +9,7 @@ This function will only work on numeric variables. If there are multiple values 
 Note that this function cannot be used to calculate the mode of the values within a single variable. However, that can be easily done for numeric variables using the Data --> Aggregate function.
 
 ##Usage
-**varMode(varList, modeVar)
+**varMode(varList, modeVar)**
 * "varList" is a list of strings indicating the variables for which you want the mode
 * "modeVar" is a string giving the name of the variable you want assigned to the mode
 

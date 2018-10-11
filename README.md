@@ -8,11 +8,11 @@ This function will only work on numeric variables. If there are multiple values 
 
 Note that this function cannot be used to calculate the mode of the values within a single variable. However, that can be easily done for numeric variables using the Data --> Aggregate function.
 
-##Usage
+## Usage
 **varMode(varList, modeVar)**
 * "varList" is a list of strings indicating the variables for which you want the mode
 * "modeVar" is a string giving the name of the variable you want assigned to the mode
 
-##Example
+## Example
 **varMode(["rank1", "rank2", "rank3", "rank4", "rank5"], "scoreMode")**
 * This will set the value of "scoreMode" for each subject to be equal to be the mode of that subject's five ranks.

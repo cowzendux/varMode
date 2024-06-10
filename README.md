@@ -14,5 +14,6 @@ Note that this function cannot be used to calculate the mode of the values withi
 * "modeVar" is a string giving the name of the variable you want assigned to the mode
 
 ## Example
-**varMode(["rank1", "rank2", "rank3", "rank4", "rank5"], "scoreMode")**
+**varMode(varList = ["rank1", "rank2", "rank3", "rank4", "rank5"],    
+modeVar = "scoreMode")**
 * This will set the value of "scoreMode" for each subject to be equal to be the mode of that subject's five ranks.

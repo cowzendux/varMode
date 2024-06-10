@@ -19,7 +19,7 @@
 * 2015-01-07 Removed test variables
 
 set printback=off.
-begin program python.
+BEGIN PROGRAM PYTHON3.
 import spss
 
 def varMode(varList, modeVar):
